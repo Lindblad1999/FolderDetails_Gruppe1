@@ -10,9 +10,10 @@
         <DockPanel x:Name="MenuPanel" DockPanel.Dock="Top" Height="20">
             <Border BorderBrush="Black" BorderThickness="1">
                 <Menu HorizontalAlignment="Left" UsesItemContainerTemplate="True">
-                    <MenuItem Header="Menu">
+                    <MenuItem x:Name="MenuButton" Header="Menu">
                         <MenuItem Header="Open Folder" Click="OpenFolder_Click"/>
                         <MenuItem Header="View Docking" Click="ViewDocking_Click"/>
+                        <MenuItem Header="Toggle Darkmode" Click="ToggleDarkmode_Click"/>
                     </MenuItem>
                 </Menu>
             </Border>
