@@ -6,7 +6,24 @@
         xmlns:local="clr-namespace:FolderDetails"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <DockPanel x:Name="Main">
+        <DockPanel x:Name="Menu" DockPanel.Dock="Top" Height="20" Background="Red">
+            <Menu HorizontalAlignment="Left" UsesItemContainerTemplate="True">
+                <MenuItem Header="Menu">
+                    <MenuItem Header="Open Folder" Click="OpenFolder_Click"/>
+                </MenuItem>
+            </Menu>
+            <!--<Button x:Name="btnOpenExplorer" Click="btnOpenExplorer_Click" Width="128" HorizontalAlignment="Left" Content="Open Folder"/>
+            <Button Width="128" HorizontalAlignment="Left"/>-->
+        </DockPanel>
+        <DockPanel x:Name="StatusLinje" DockPanel.Dock="Bottom" Height="30" Background="Orange">
+        </DockPanel>
+        <DockPanel x:Name="TreeViewMenu" DockPanel.Dock="Left" Background="Yellow" Width="255">
+            <TreeView x:Name="TreeViewContainer">
+
+            </TreeView>
+        </DockPanel>
+        <DockPanel x:Name="ItemContent" DockPanel.Dock="Right" Background="Green">
+        </DockPanel>
+    </DockPanel>
 </Window>

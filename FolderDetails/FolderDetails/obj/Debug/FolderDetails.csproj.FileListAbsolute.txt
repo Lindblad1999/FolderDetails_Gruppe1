@@ -1,0 +1,15 @@
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\bin\Debug\FolderDetails.exe.config
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\bin\Debug\FolderDetails.exe
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\bin\Debug\FolderDetails.pdb
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.csprojAssemblyReference.cache
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\MainWindow.g.cs
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\App.g.cs
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails_MarkupCompile.cache
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails_MarkupCompile.lref
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\MainWindow.baml
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.g.resources
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.Properties.Resources.resources
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.csproj.GenerateResource.cache
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.csproj.CoreCompileInputs.cache
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.exe
+C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.pdb

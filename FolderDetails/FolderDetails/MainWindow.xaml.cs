@@ -24,5 +24,10 @@ namespace FolderDetails
         {
             InitializeComponent();
         }
+
+        private void OpenFolder_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
