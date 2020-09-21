@@ -13,3 +13,18 @@ C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderD
 C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.csproj.CoreCompileInputs.cache
 C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.exe
 C:\Users\DanielSimonsen\source\repos\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.pdb
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\bin\Debug\FolderDetails.exe.config
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\bin\Debug\FolderDetails.exe
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\bin\Debug\FolderDetails.pdb
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.csprojAssemblyReference.cache
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\MainWindow.g.cs
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\App.g.cs
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails_MarkupCompile.cache
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails_MarkupCompile.lref
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\MainWindow.baml
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.g.resources
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.Properties.Resources.resources
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.csproj.GenerateResource.cache
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.csproj.CoreCompileInputs.cache
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.exe
+D:\Program Files (x86)\Microsoft Visual Studio\Projects\H2\FolderDetails_Gruppe1\FolderDetails\FolderDetails\obj\Debug\FolderDetails.pdb

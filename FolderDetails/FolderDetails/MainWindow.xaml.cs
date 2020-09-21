@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Forms;
+using System.IO;
 
 namespace FolderDetails
 {
@@ -21,6 +23,8 @@ namespace FolderDetails
     public partial class MainWindow : Window
     {
         private bool ViewDocking = false;
+
+        private Obj rootObj;
         public MainWindow()
         {
             InitializeComponent();
@@ -29,7 +33,8 @@ namespace FolderDetails
         #region MenuItems_Click
         private void OpenFolder_Click(object sender, RoutedEventArgs e)
         {
-
+            FolderSelect();
+            rootObj.SubDirectories();
         }
 
         private void ViewDocking_Click(object sender, RoutedEventArgs e)
@@ -67,5 +72,18 @@ namespace FolderDetails
             ViewDocking ^= true;
         }
         #endregion
+
+        private void FolderSelect()
+        {
+            using (var fbd = new FolderBrowserDialog())
+            {
+                DialogResult result = fbd.ShowDialog();
+
+                if (result.ToString() == "OK")
+                {
+                    rootObj = new Obj(System.IO.Path.GetFileName(fbd.SelectedPath), fbd.SelectedPath);
+                }
+            }
+        }
     }
 }
