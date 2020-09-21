@@ -15,7 +15,14 @@ namespace FolderDetails
 
         public void SubDirectories()
         {
-            string[] subdirectoryEntries = Directory.GetDirectories(Path,"*.", SearchOption.TopDirectoryOnly);
+            string[] subdirectoryEntries = { };
+            try
+            {
+                subdirectoryEntries = Directory.GetDirectories(Path, "*.", SearchOption.TopDirectoryOnly);
+            }
+            catch (Exception)
+            {
+            }
             foreach (string s in subdirectoryEntries)
             {
                 string[] pathSplit = s.Split('\\');
