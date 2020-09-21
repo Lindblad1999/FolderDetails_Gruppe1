@@ -7,23 +7,45 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <DockPanel x:Name="Main">
-        <DockPanel x:Name="Menu" DockPanel.Dock="Top" Height="20" Background="Red">
-            <Menu HorizontalAlignment="Left" UsesItemContainerTemplate="True">
-                <MenuItem Header="Menu">
-                    <MenuItem Header="Open Folder" Click="OpenFolder_Click"/>
-                </MenuItem>
-            </Menu>
-            <!--<Button x:Name="btnOpenExplorer" Click="btnOpenExplorer_Click" Width="128" HorizontalAlignment="Left" Content="Open Folder"/>
-            <Button Width="128" HorizontalAlignment="Left"/>-->
+        <DockPanel x:Name="MenuPanel" DockPanel.Dock="Top" Height="20">
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Menu HorizontalAlignment="Left" UsesItemContainerTemplate="True">
+                    <MenuItem Header="Menu">
+                        <MenuItem Header="Open Folder" Click="OpenFolder_Click"/>
+                        <MenuItem Header="View Docking" Click="ViewDocking_Click"/>
+                    </MenuItem>
+                </Menu>
+            </Border>
         </DockPanel>
-        <DockPanel x:Name="StatusLinje" DockPanel.Dock="Bottom" Height="30" Background="Orange">
+        <DockPanel x:Name="StatusLinePanel" DockPanel.Dock="Bottom" Height="32">
+            <Border BorderBrush="Black" BorderThickness="1">
+                <Label x:Name="lblStatusLine" Content="Status:" FontSize="18" FontWeight="Bold" VerticalContentAlignment="Center"/>
+            </Border>
         </DockPanel>
-        <DockPanel x:Name="TreeViewMenu" DockPanel.Dock="Left" Background="Yellow" Width="255">
+        <DockPanel x:Name="TreeViewMenuPanel" DockPanel.Dock="Left" Width="255">
             <TreeView x:Name="TreeViewContainer">
 
             </TreeView>
         </DockPanel>
-        <DockPanel x:Name="ItemContent" DockPanel.Dock="Right" Background="Green">
+        <DockPanel x:Name="ItemContentPanel" DockPanel.Dock="Right">
+            <Border BorderBrush="Black" BorderThickness="1" />
+            <DockPanel x:Name="FileNamePanel" DockPanel.Dock="Top">
+                <Label x:Name="lblItemContentTitle" Content="Name: " FontSize="25" DockPanel.Dock="Left" FontWeight="Bold" Width="87"/>
+                <Label x:Name="lblItemContentName" Content="NameOnFile" FontSize="25" DockPanel.Dock="Right"/>
+            </DockPanel>
+            <DockPanel x:Name="FileExtensionPanel" DockPanel.Dock="Top">
+                <Label x:Name="lblItemContentExtensionTitle" Content="Extension: " FontSize="25" DockPanel.Dock="Left" FontWeight="Bold" Width="130"/>
+                <Label x:Name="lblItemContentExtension" Content="txt" FontSize="25" DockPanel.Dock="Right"/>
+            </DockPanel>
+            <DockPanel x:Name="FileCreatedPanel" DockPanel.Dock="Top">
+                <Label x:Name="lblItemContentCreatedTitle" Content="Created: " FontSize="25" DockPanel.Dock="Left" FontWeight="Bold" Width="107"/>
+                <Label x:Name="lblItemContentCreated" Content="15/03/2014" FontSize="25" DockPanel.Dock="Right"/>
+            </DockPanel>
+            <DockPanel x:Name="FileLastModifiedPanel" DockPanel.Dock="Top">
+                <Label x:Name="lblItemContentLastModifiedTitle" Content="Last Modified: " FontSize="25" DockPanel.Dock="Left" FontWeight="Bold" Width="177"/>
+                <Label x:Name="lblItemContentLastModified" Content="21/09/2020" FontSize="25" DockPanel.Dock="Right"/>
+            </DockPanel>
+            <DockPanel DockPanel.Dock="Top"/>
         </DockPanel>
     </DockPanel>
 </Window>
